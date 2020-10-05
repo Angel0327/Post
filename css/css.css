@@ -4,17 +4,31 @@
 }
 header{
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: #2471A3;
   display: flex;
 }
-.titulo{
-color: black;
-font-size: 30px;
-text-align: center;
-margin-top: 1.5%;
+.Logo{
+width: 65px;
+height: 65px;
+border-radius: 100%;
+margin-top: 10px;
+margin-left: 20px;
 }
-
+.titulo{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+.CajaLogo{
+  display: flex;
+  flex-direction: row;
+}
+body{
+  height: 75vh;
+  background-size: cover;
+}
 section{
     background-color: wheat;
     height: 350px;
@@ -24,6 +38,25 @@ section{
 }
 
 .Text_medio{
+    padding-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    color: black;
+}
+.divFooter{
+  margin-top: -20px;
+  width: 60%;
+  height: 50px;
+  background-color:#2471A3;
+  border-radius: 10px;
+  margin-left: 270px;
+}
+.tituloFooter{
+  margin-top: 20px;
+  margin-left:10px;
+  font-size: 200%;
+  color: black;
+  font-family: 'Patua One', cursive;
+  text-shadow: 2px 2px white;
+  text-align: center;
 }
